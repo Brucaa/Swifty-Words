@@ -12,6 +12,8 @@
 		A96F5929238BF2FE00BA50D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96F5927238BF2FE00BA50D5 /* Main.storyboard */; };
 		A96F592B238BF30600BA50D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96F592A238BF30600BA50D5 /* Assets.xcassets */; };
 		A96F592E238BF30600BA50D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96F592C238BF30600BA50D5 /* LaunchScreen.storyboard */; };
+		A9BE6874238D2B4F0042BE30 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9BE6872238D2B4E0042BE30 /* level1.txt */; };
+		A9BE6875238D2B4F0042BE30 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9BE6873238D2B4F0042BE30 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A96F592A238BF30600BA50D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A96F592D238BF30600BA50D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A96F592F238BF30600BA50D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BE6872238D2B4E0042BE30 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		A9BE6873238D2B4F0042BE30 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A96F592A238BF30600BA50D5 /* Assets.xcassets */,
 				A96F592C238BF30600BA50D5 /* LaunchScreen.storyboard */,
 				A96F592F238BF30600BA50D5 /* Info.plist */,
+				A9BE6872238D2B4E0042BE30 /* level1.txt */,
+				A9BE6873238D2B4F0042BE30 /* level2.txt */,
 			);
 			path = "Swifty Words";
 			sourceTree = "<group>";
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BE6875238D2B4F0042BE30 /* level2.txt in Resources */,
 				A96F592E238BF30600BA50D5 /* LaunchScreen.storyboard in Resources */,
+				A9BE6874238D2B4F0042BE30 /* level1.txt in Resources */,
 				A96F592B238BF30600BA50D5 /* Assets.xcassets in Resources */,
 				A96F5929238BF2FE00BA50D5 /* Main.storyboard in Resources */,
 			);
@@ -291,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.milosjovanovic.Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.milosjovanovic.Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
